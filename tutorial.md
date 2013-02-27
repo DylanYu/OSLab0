@@ -1,21 +1,21 @@
-#Lab0 Tutorial
+﻿#Lab0 Tutorial
 
-##Windows��ʹ��wubi��װUbuntu
+##Windows下使用wubi安装Ubuntu
 
-0.	�ٶ����ǽ�Ubuntu��װ��E�̣���֤E����10Gʣ��ռ䡣����Ҫ��ʽ��E�̣�ԭ�еļ�Ҳ����Ҫɾ���� 
-1.	��[����](��http://zijingbt.njuftp.org/stats.html?id=52080 "�Ͼ�BT")����ubuntu12.04������������ǽ������ubuntu-12.04-desktop-i386.iso������E�̸�Ŀ¼��
-2.	��winrar��ubuntu-12.04-desktop-i386.iso���ҵ�wubi.exe���������ѹ����Ҳ�ŵ�E�̸�Ŀ¼��������ѹ��һ��exe�����ɣ���
-3.	�򿪿���̨cmd����������ָ�
+0.	假定我们将Ubuntu安装到E盘，保证E盘有10G剩余空间。不需要格式化E盘，原有的文件也不需要删除。 
+1.	到[这里](http://zijingbt.njuftp.org/stats.html?id=52080 "ZiJingBT")下载ubuntu12.04。下载完后我们将里面的ubuntu-12.04-desktop-i386.iso拷贝到E盘根目录。
+2.	用winrar打开ubuntu-12.04-desktop-i386.iso，找到wubi.exe文件，将其解压出来也放到E盘根目录（仅仅解压这一个exe文件即可）。
+3.	打开控制台cmd，键入如下指令：
 
 			E:\wubi.exe --force-wubi
 
-	��������wubi.exe����ͼ��ͼƬ��Դ��http://www.drv5.cn/����
+	就启动了wubi.exe，如图（图片来源于http://www.drv5.cn/）：
 	
-	![ͼƬ](http://www.drv5.cn/sfinfo/UPic/2012-5/20125188104134041.gif)
+	![图片](http://www.drv5.cn/sfinfo/UPic/2012-5/20125188104134041.gif)
 
-	Ŀ��������ѡΪE����װ��С10G����Ϊ�����Ubuntu�Ĵ��̿ռ䣬�����ѡ�����һЩ�������滷��ѡΪUbuntu���û����Ϳ��ΪUbuntuϵͳ���û����Ϳ�������ϰ�����á�Ȼ������װ������һ�������Ĺ��̣�����֮��ѯ�����Ƿ�����ϵͳ��ѡ��������
-4.  �������ֱ����������Ubuntu�İ�װ���̣��������㲻��Ҫ���κ��£���װ���������������������������������һ��`ubuntu`ѡ�ѡ�񼴿ɽ������Ǹոհ�װ�õ�ϵͳ��
-5.  Done!
+	目标驱动器选为E，安装大小10G（意为分配给Ubuntu的磁盘空间，你可以选择更大一些），桌面环境选为Ubuntu，用户名和口令即为Ubuntu系统的用户名和口令，按你的习惯设置。然后点击安装，会有一个拷贝的过程，结束之后询问你是否重启系统，选择重启。
+4.	重启后会直接引导进入Ubuntu的安装过程，这其中你不需要做任何事，安装结束后会重启。现在你的启动项里会增加一个`ubuntu`选项，选择即可进入我们刚刚安装好的系统。
+5.	Done!
 
 ##Reference:
 
